@@ -28,11 +28,11 @@ Enter a number: 0
 Zero
 """
 
-num1 = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
-if num1 > 0:
+if num > 0:
     print("Positive Number")
-elif num1 < 0:
+elif num < 0:
     print("Negative Number")
 else:
     print("Zero")
